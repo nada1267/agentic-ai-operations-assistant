@@ -1,0 +1,11 @@
+order_id,customer_id,product,quantity,amount,order_date,expected_delivery,status
+ORD-4575,C-1001,Wireless Mouse,1,450,2026-07-20,2026-07-25,Delivered
+ORD-4576,C-1002,Office Chair,1,3200,2026-07-21,2026-07-27,Delivered
+ORD-4577,C-1003,Laptop Stand,2,900,2026-07-22,2026-07-28,Delivered
+ORD-4578,C-1004,Mechanical Keyboard,1,1750,2026-07-23,2026-07-29,In Transit
+ORD-4579,C-1006,Monitor 24-inch,1,5400,2026-07-24,2026-07-30,In Transit
+ORD-4580,C-1007,USB-C Hub,3,660,2026-07-25,2026-07-31,Delivered
+ORD-4581,C-1008,Desk Lamp,1,380,2026-07-26,2026-08-01,In Transit
+ORD-4582,C-1005,External Hard Drive 2TB,1,2600,2026-07-18,2026-07-24,Delayed
+ORD-4583,C-1001,Bluetooth Speaker,1,1100,2026-07-27,2026-08-02,Processing
+ORD-4584,C-1002,Webcam HD,1,900,2026-07-28,2026-08-03,Processing
