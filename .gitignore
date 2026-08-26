@@ -3,3 +3,5 @@ venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+# ChromaDB generated data
+rag/chroma_db/
