@@ -2,10 +2,117 @@ shipment_id,order_id,carrier,shipped_date,expected_delivery,current_status,last_
 SHP-9001,ORD-4575,Bosta,2026-07-21,2026-07-25,Delivered,Cairo Hub,,0
 SHP-9002,ORD-4576,Aramex,2026-07-22,2026-07-27,Delivered,Alexandria Hub,,0
 SHP-9003,ORD-4577,Bosta,2026-07-23,2026-07-28,Delivered,Tanta Hub,,0
-SHP-9004,ORD-4578,Aramex,2026-07-24,2026-07-29,In Transit,Giza Hub,,0
-SHP-9005,ORD-4579,Bosta,2026-07-25,2026-07-30,In Transit,Cairo Hub,,0
+SHP-9004,ORD-4578,Aramex,2026-07-24,2026-07-29,Delayed,Giza Hub,,20
+SHP-9005,ORD-4579,Bosta,2026-07-25,2026-07-30,Delayed,Cairo Hub,,19
 SHP-9006,ORD-4580,Aramex,2026-07-26,2026-07-31,Delivered,Zagazig Hub,,0
-SHP-9007,ORD-4581,Bosta,2026-07-27,2026-08-01,In Transit,Tanta Hub,,0
-SHP-9008,ORD-4582,Aramex,2026-07-19,2026-07-24,Delayed,Mansoura Sorting Facility,Carrier warehouse congestion + incorrect address on first attempt,6
-SHP-9009,ORD-4583,Bosta,2026-07-28,2026-08-02,Processing,Cairo Warehouse,,0
-SHP-9010,ORD-4584,Aramex,2026-07-29,2026-08-03,Processing,Alexandria Warehouse,,0
+SHP-9007,ORD-4581,Bosta,2026-07-27,2026-08-01,Delayed,Tanta Hub,,17
+SHP-9008,ORD-4582,Aramex,2026-07-19,2026-07-24,Delayed,Mansoura Sorting Facility,Carrier warehouse congestion + incorrect address on first attempt,25
+SHP-9009,ORD-4583,Bosta,2026-07-28,2026-08-02,Delayed,Cairo Warehouse,,16
+SHP-9010,ORD-4584,Aramex,2026-07-29,2026-08-03,Delayed,Alexandria Warehouse,,15
+SHP-9011,ORD-4585,Bosta,2026-07-18,2026-07-25,Delivered,Zagazig Hub,High shipment volume,0
+SHP-9012,ORD-4586,Bosta,2026-07-31,2026-08-04,Delivered,Mansoura Hub,,0
+SHP-9013,ORD-4587,Bosta,,2026-07-28,Processing,Giza Warehouse,,0
+SHP-9014,ORD-4588,Bosta,2026-08-05,2026-08-11,Delivered,Zagazig Hub,,0
+SHP-9015,ORD-4589,Aramex,2026-07-08,2026-07-13,Delivered,Cairo Hub,,0
+SHP-9016,ORD-4590,Aramex,2026-08-06,2026-08-11,Delayed,Tanta Sorting Facility,Vehicle breakdown,7
+SHP-9017,ORD-4591,Bosta,2026-08-02,2026-08-08,Delivered,Cairo Hub,,0
+SHP-9018,ORD-4592,Aramex,2026-07-04,2026-07-08,Delayed,Alexandria Hub,,41
+SHP-9019,ORD-4593,Bosta,2026-07-30,2026-08-06,Delayed,Cairo Hub,,12
+SHP-9020,ORD-4594,Bosta,,2026-07-10,Processing,Mansoura Warehouse,,0
+SHP-9021,ORD-4595,Aramex,2026-07-25,2026-07-29,Delayed,Alexandria Hub,,20
+SHP-9022,ORD-4596,Aramex,2026-07-08,2026-07-14,Delayed,Mansoura Hub,,35
+SHP-9023,ORD-4597,Aramex,2026-07-12,2026-07-17,Delayed,Cairo Hub,,32
+SHP-9024,ORD-4598,Aramex,2026-08-13,2026-08-18,Delivered,Alexandria Hub,,0
+SHP-9025,ORD-4599,Bosta,2026-07-04,2026-07-11,Delayed,Alexandria Sorting Facility,Operational issue,38
+SHP-9026,ORD-4600,Aramex,2026-07-03,2026-07-08,Delayed,Tanta Sorting Facility,High shipment volume,41
+SHP-9027,ORD-4601,Aramex,2026-08-12,2026-08-19,In Transit,Cairo Sorting Facility,Incorrect address,0
+SHP-9028,ORD-4602,Aramex,2026-07-08,2026-07-15,Delivered,Zagazig Hub,,0
+SHP-9029,ORD-4603,Aramex,2026-08-09,2026-08-13,Delivered,Mansoura Hub,,0
+SHP-9030,ORD-4604,Bosta,2026-08-16,2026-08-23,Delivered,Mansoura Hub,,0
+SHP-9031,ORD-4605,Aramex,2026-07-29,2026-08-02,Delayed,Mansoura Hub,,16
+SHP-9032,ORD-4606,Aramex,2026-07-21,2026-07-27,Delayed,Tanta Hub,,22
+SHP-9033,ORD-4607,Aramex,2026-07-10,2026-07-15,Delayed,Zagazig Sorting Facility,Failed delivery attempt,34
+SHP-9034,ORD-4608,Aramex,2026-08-06,2026-08-10,Delayed,Tanta Sorting Facility,Vehicle breakdown,8
+SHP-9035,ORD-4609,Bosta,2026-07-30,2026-08-06,Delayed,Mansoura Hub,,12
+SHP-9036,ORD-4610,Aramex,2026-07-07,2026-07-13,Delayed,Cairo Sorting Facility,Vehicle breakdown,36
+SHP-9037,ORD-4611,Bosta,2026-07-03,2026-07-07,Returned,Giza Return Center,Order cancelled by customer,0
+SHP-9038,ORD-4612,Aramex,2026-07-28,2026-08-02,Delivered,Giza Hub,,0
+SHP-9039,ORD-4613,Bosta,2026-08-12,2026-08-16,Delivered,Giza Hub,,0
+SHP-9040,ORD-4614,Bosta,2026-08-04,2026-08-11,Delayed,Mansoura Hub,,7
+SHP-9041,ORD-4615,Aramex,,2026-07-17,Processing,Mansoura Warehouse,,0
+SHP-9042,ORD-4616,Aramex,2026-07-30,2026-08-04,Delayed,Giza Hub,,14
+SHP-9043,ORD-4617,Bosta,2026-07-19,2026-07-26,Delayed,Tanta Hub,,23
+SHP-9044,ORD-4618,Aramex,2026-07-20,2026-07-25,Delayed,Tanta Hub,,24
+SHP-9045,ORD-4619,Aramex,2026-07-11,2026-07-16,Delayed,Zagazig Hub,,33
+SHP-9046,ORD-4620,Aramex,,2026-08-04,Processing,Mansoura Warehouse,,0
+SHP-9047,ORD-4621,Bosta,,2026-08-04,Processing,Mansoura Warehouse,,0
+SHP-9048,ORD-4622,Aramex,2026-07-21,2026-07-28,Delayed,Mansoura Sorting Facility,Vehicle breakdown,21
+SHP-9049,ORD-4623,Aramex,2026-08-02,2026-08-06,Returned,Tanta Return Center,Order cancelled by customer,0
+SHP-9050,ORD-4624,Bosta,2026-07-12,2026-07-19,Delivered,Mansoura Hub,,0
+SHP-9051,ORD-4625,Bosta,2026-08-08,2026-08-12,Delivered,Zagazig Hub,Failed delivery attempt,0
+SHP-9052,ORD-4626,Aramex,2026-07-05,2026-07-11,Delivered,Tanta Hub,,0
+SHP-9053,ORD-4627,Aramex,2026-07-23,2026-07-30,Delivered,Giza Hub,,0
+SHP-9054,ORD-4628,Aramex,2026-07-03,2026-07-07,Delayed,Alexandria Sorting Facility,Incorrect address,42
+SHP-9055,ORD-4629,Bosta,,2026-07-18,Processing,Alexandria Warehouse,,0
+SHP-9056,ORD-4630,Aramex,2026-07-09,2026-07-14,Delayed,Zagazig Sorting Facility,High shipment volume,35
+SHP-9057,ORD-4631,Bosta,,2026-07-25,Processing,Giza Warehouse,,0
+SHP-9058,ORD-4632,Bosta,,2026-08-21,Processing,Alexandria Warehouse,,0
+SHP-9059,ORD-4633,Bosta,2026-08-09,2026-08-13,Delivered,Tanta Hub,,0
+SHP-9060,ORD-4634,Aramex,2026-07-25,2026-07-29,Delayed,Cairo Sorting Facility,Failed delivery attempt,20
+SHP-9061,ORD-4635,Bosta,2026-08-11,2026-08-18,In Transit,Giza Hub,,0
+SHP-9062,ORD-4636,Aramex,,2026-08-12,Processing,Mansoura Warehouse,,0
+SHP-9063,ORD-4637,Aramex,2026-07-17,2026-07-21,Delivered,Giza Hub,,0
+SHP-9064,ORD-4638,Aramex,2026-08-10,2026-08-17,Delivered,Cairo Hub,,0
+SHP-9065,ORD-4639,Aramex,2026-08-02,2026-08-07,Delivered,Tanta Hub,,0
+SHP-9066,ORD-4640,Bosta,2026-08-15,2026-08-21,In Transit,Mansoura Sorting Facility,Vehicle breakdown,0
+SHP-9067,ORD-4641,Aramex,2026-08-06,2026-08-11,Delayed,Zagazig Hub,,7
+SHP-9068,ORD-4642,Aramex,2026-07-03,2026-07-07,Delivered,Alexandria Hub,,0
+SHP-9069,ORD-4643,Aramex,2026-08-13,2026-08-19,Delivered,Mansoura Hub,,0
+SHP-9070,ORD-4644,Aramex,2026-08-06,2026-08-12,Delayed,Zagazig Hub,,6
+SHP-9071,ORD-4645,Bosta,2026-07-18,2026-07-23,Delayed,Zagazig Hub,,26
+SHP-9072,ORD-4646,Bosta,2026-08-05,2026-08-10,Delayed,Alexandria Hub,,8
+SHP-9073,ORD-4647,Bosta,2026-08-08,2026-08-14,Delivered,Alexandria Hub,,0
+SHP-9074,ORD-4648,Bosta,2026-07-13,2026-07-19,Delayed,Zagazig Sorting Facility,Weather conditions,30
+SHP-9075,ORD-4649,Aramex,,2026-07-25,Processing,Cairo Warehouse,,0
+SHP-9076,ORD-4650,Aramex,2026-07-20,2026-07-27,Delivered,Giza Hub,,0
+SHP-9077,ORD-4651,Bosta,2026-07-18,2026-07-25,Delayed,Cairo Sorting Facility,Failed delivery attempt,24
+SHP-9078,ORD-4652,Bosta,2026-07-11,2026-07-17,Delayed,Alexandria Sorting Facility,Incorrect address,32
+SHP-9079,ORD-4653,Aramex,2026-08-09,2026-08-14,Delayed,Giza Hub,,4
+SHP-9080,ORD-4654,Aramex,2026-08-08,2026-08-15,Delivered,Mansoura Hub,,0
+SHP-9081,ORD-4655,Bosta,2026-07-08,2026-07-13,Delayed,Tanta Sorting Facility,Incorrect address,36
+SHP-9082,ORD-4656,Bosta,2026-07-06,2026-07-11,Delivered,Giza Hub,,0
+SHP-9083,ORD-4657,Aramex,,2026-07-09,Processing,Giza Warehouse,,0
+SHP-9084,ORD-4658,Aramex,,2026-08-19,Processing,Alexandria Warehouse,,0
+SHP-9085,ORD-4659,Aramex,2026-07-16,2026-07-21,Delayed,Alexandria Sorting Facility,Incorrect address,28
+SHP-9086,ORD-4660,Aramex,2026-08-07,2026-08-13,Returned,Cairo Return Center,Order cancelled by customer,0
+SHP-9087,ORD-4661,Aramex,2026-07-27,2026-08-02,Returned,Giza Return Center,Order cancelled by customer,0
+SHP-9088,ORD-4662,Bosta,2026-07-22,2026-07-28,Delivered,Cairo Hub,,0
+SHP-9089,ORD-4663,Bosta,2026-07-19,2026-07-23,Delayed,Giza Hub,,26
+SHP-9090,ORD-4664,Aramex,2026-07-13,2026-07-20,Delayed,Cairo Hub,,29
+SHP-9091,ORD-4665,Bosta,2026-07-23,2026-07-29,Delivered,Alexandria Hub,Customs delay,0
+SHP-9092,ORD-4666,Bosta,2026-08-13,2026-08-20,Returned,Giza Return Center,Order cancelled by customer,0
+SHP-9093,ORD-4667,Aramex,2026-07-22,2026-07-26,Delayed,Mansoura Sorting Facility,Carrier warehouse congestion,23
+SHP-9094,ORD-4668,Aramex,2026-07-14,2026-07-20,Delivered,Zagazig Hub,,0
+SHP-9095,ORD-4669,Aramex,,2026-07-24,Processing,Mansoura Warehouse,,0
+SHP-9096,ORD-4670,Bosta,2026-07-03,2026-07-08,Returned,Tanta Return Center,Order cancelled by customer,0
+SHP-9097,ORD-4671,Bosta,2026-07-28,2026-08-01,Delayed,Cairo Hub,,17
+SHP-9098,ORD-4672,Aramex,2026-07-11,2026-07-18,Delayed,Mansoura Hub,,31
+SHP-9099,ORD-4673,Bosta,,2026-08-08,Processing,Mansoura Warehouse,,0
+SHP-9100,ORD-4674,Bosta,2026-07-14,2026-07-19,Delayed,Tanta Sorting Facility,Failed delivery attempt,30
+SHP-9101,ORD-4675,Aramex,2026-07-20,2026-07-26,Returned,Alexandria Return Center,Order cancelled by customer,0
+SHP-9102,ORD-4676,Aramex,2026-07-23,2026-07-30,Delivered,Tanta Hub,,0
+SHP-9103,ORD-4677,Bosta,2026-07-17,2026-07-24,Delivered,Giza Hub,,0
+SHP-9104,ORD-4678,Aramex,2026-08-01,2026-08-08,Delayed,Zagazig Hub,,10
+SHP-9105,ORD-4679,Aramex,2026-07-04,2026-07-09,Returned,Cairo Return Center,Order cancelled by customer,0
+SHP-9106,ORD-4680,Bosta,2026-08-04,2026-08-11,Delayed,Zagazig Hub,,7
+SHP-9107,ORD-4681,Aramex,,2026-07-15,Processing,Giza Warehouse,,0
+SHP-9108,ORD-4682,Aramex,2026-07-07,2026-07-13,Returned,Tanta Return Center,Order cancelled by customer,0
+SHP-9109,ORD-4683,Bosta,2026-07-04,2026-07-08,Delayed,Zagazig Sorting Facility,High shipment volume,41
+SHP-9110,ORD-4684,Aramex,2026-07-08,2026-07-12,Returned,Alexandria Return Center,Order cancelled by customer,0
+SHP-9111,ORD-4685,Aramex,2026-08-02,2026-08-07,Delayed,Cairo Sorting Facility,Carrier warehouse congestion,11
+SHP-9112,ORD-4686,Bosta,2026-08-03,2026-08-08,Delayed,Giza Sorting Facility,Weather conditions,10
+SHP-9113,ORD-4687,Aramex,2026-08-04,2026-08-09,Delayed,Alexandria Delivery Center,Incorrect address,9
+SHP-9114,ORD-4688,Bosta,2026-08-05,2026-08-10,Delayed,Tanta Delivery Center,Failed delivery attempt,8
+SHP-9115,ORD-4689,Aramex,2026-08-02,2026-08-06,Delayed,Mansoura Sorting Facility,Shipment missing after last scan,12
+SHP-9116,ORD-4690,Bosta,2026-08-04,2026-08-09,Returned,Cairo Return Center,Order cancelled by customer,0
+SHP-9117,ORD-4691,Bosta,2026-08-13,2026-08-18,In Transit,Cairo Hub,,0

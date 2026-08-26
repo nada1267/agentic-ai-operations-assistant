@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OpsAI - Customer Operations</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            Ops<span>AI</span>
+        </div>
+
+        <nav>
+            <a href="#" class="active">💬 Assistant</a>
+            <a href="#">📦 Orders</a>
+            <a href="#">💰 Refunds</a>
+            <a href="#">⚠ Complaints</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <p>AI Operations Assistant</p>
+            <span>Online</span>
+        </div>
+
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <!-- Header -->
+        <header class="topbar">
+
+            <div>
+                <h1>AI Operations Assistant</h1>
+                <p>Intelligent customer support powered by AI</p>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                AI Online
+            </div>
+
+        </header>
+
+
+        <!-- Dashboard Cards -->
+        <section class="cards">
+
+            <div class="card">
+                <span class="card-icon">📦</span>
+                <div>
+                    <p>Order Support</p>
+                    <h3>Active</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">💰</span>
+                <div>
+                    <p>Refund Support</p>
+                    <h3>Available</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">⚠</span>
+                <div>
+                    <p>Complaint Support</p>
+                    <h3>Available</h3>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Chat Section -->
+        <section class="chat-container">
+
+            <div class="chat-header">
+
+                <div class="bot-info">
+
+                    <div class="bot-avatar">
+                        🤖
+                    </div>
+
+                    <div>
+                        <h2>OpsAI Assistant</h2>
+                        <p>
+                            Ask me about your order or shipment
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Messages -->
+            <div class="messages">
+
+                <div class="message bot">
+
+                    <div class="avatar">
+                        🤖
+                    </div>
+
+                    <div class="bubble">
+
+                        <p>
+                            Hello! I'm your AI Operations Assistant.
+                        </p>
+
+                        <p>
+                            I can help you with orders, shipments,
+                            refunds, and complaints.
+                        </p>
+
+                        <p>
+                            How can I help you today?
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Example user message -->
+
+                <div class="message user">
+
+                    <div class="bubble">
+
+                        <p>
+                            Where is my order ORD-4582?
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Example AI response -->
+
+                <div class="message bot">
+
+                    <div class="avatar">
+                        🤖
+                    </div>
+
+                    <div class="bubble">
+
+                        <p>
+                            Let me check your order details.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Suggested Questions -->
+            <div class="suggestions">
+
+                <button>Where is my order?</button>
+
+                <button>Why is my order delayed?</button>
+
+                <button>Can I get a refund?</button>
+
+                <button>I want to make a complaint</button>
+
+            </div>
+
+
+            <!-- Input -->
+            <div class="chat-input">
+
+                <input
+                    type="text"
+                    placeholder="Type your message..."
+                >
+
+                <button onclick="sendMessage()">
+                    Send
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+<script src="script.js"></script>
+
+</body>
+</html>
